@@ -8,6 +8,8 @@
 - https://github.com/eslint/eslint/issues/13481
 - https://github.com/sxzz/eslint-config + https://www.npmjs.com/package/@sxzz/eslint-config?activeTab=explore
 - https://github.com/eslint/eslint/issues/3458#issuecomment-1239811334
+- https://github.com/eslint/eslint/issues/15539#issuecomment-1180362963
+- https://github.com/jsx-eslint/eslint-plugin-react#configuration-new-eslintconfigjs + https://github.com/jsx-eslint/eslint-plugin-react/blob/master/index.js
 
 ## Notes
 
