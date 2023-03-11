@@ -17,3 +17,7 @@
 - https://github.com/AlloyTeam/eslint-config-alloy
 - https://www.npmjs.com/package/globals
 - https://github.com/Shinigami92/eslint-define-config
+- [ESLint's new config system, Part 1: Background](https://eslint.org/blog/2022/08/new-config-system-part-1/):
+  - Current config system: eslintrc or eslintrc system.
+  - New config system: flat config.
+  - "(...) we had recommended that shareable configs include any plugins they depended on as peer dependencies rather than regular dependencies. This was a quirk of the way that `extends` was implemented: using `require()`."
