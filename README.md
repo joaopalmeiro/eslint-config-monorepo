@@ -42,3 +42,9 @@ npm install
   - `npx npm-check-updates --packageManager npm` (check) + `npx npm-check-updates -u --packageManager npm` (update)
   - `npx npm-check-updates --help --packageManager`
   - `npx npm-check-updates --packageManager pnpm` + `npx npm-check-updates -u --packageManager pnpm`
+- [Setting config options for the init command](https://docs.npmjs.com/creating-a-package-json-file#setting-config-options-for-the-init-command):
+  - https://github.com/npm/init-package-json/blob/main/lib/default-input.js
+  - `npm set init-author-email "jm.palmeiro@campus.fct.unl.pt"`
+  - `npm set init-author-name "João Palmeiro"`
+  - `npm set init-license "MIT"`
+  - `npm set init-version "0.0.0"`
