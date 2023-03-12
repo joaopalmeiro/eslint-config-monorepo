@@ -1,5 +1,21 @@
 # eslint-config-vue
 
+## Development
+
+```bash
+nvm install && nvm use && node --version
+```
+
+or
+
+```bash
+nvm use && node --version
+```
+
+```bash
+npm install
+```
+
 ## References
 
 - https://eslint.org/blog/2022/08/new-config-system-part-2/#using-predefined-configs
@@ -10,6 +26,7 @@
 - https://github.com/eslint/eslint/issues/3458#issuecomment-1239811334
 - https://github.com/eslint/eslint/issues/15539#issuecomment-1180362963
 - https://github.com/jsx-eslint/eslint-plugin-react#configuration-new-eslintconfigjs + https://github.com/jsx-eslint/eslint-plugin-react/blob/master/index.js
+- https://github.com/will-stone/dx
 
 ## Notes
 
