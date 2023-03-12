@@ -38,3 +38,7 @@ npm install
   - Current config system: eslintrc or eslintrc system.
   - New config system: flat config.
   - "(...) we had recommended that shareable configs include any plugins they depended on as peer dependencies rather than regular dependencies. This was a quirk of the way that `extends` was implemented: using `require()`."
+- https://www.npmjs.com/package/npm-check-updates:
+  - `npx npm-check-updates --packageManager npm` (check) + `npx npm-check-updates -u --packageManager npm` (update)
+  - `npx npm-check-updates --help --packageManager`
+  - `npx npm-check-updates --packageManager pnpm` + `npx npm-check-updates -u --packageManager pnpm`

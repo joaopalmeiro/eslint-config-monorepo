@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/joaopalmeiro/eslint-config-vue#readme",
   "dependencies": {
-    "eslint": "8.35.0"
+    "eslint": "8.36.0"
   },
   "scripts": {
     "check:js": "eslint --print-config test.js"
