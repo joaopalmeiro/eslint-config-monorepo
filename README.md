@@ -32,11 +32,10 @@ npm install
 
 - `npm install eslint && npm install -D eslint-define-config`
 - https://github.com/AlloyTeam/eslint-config-alloy
-- https://www.npmjs.com/package/globals
 - https://github.com/Shinigami92/eslint-define-config
 - [ESLint's new config system, Part 1: Background](https://eslint.org/blog/2022/08/new-config-system-part-1/):
-  - Current config system: eslintrc or eslintrc system.
-  - New config system: flat config.
+  - Current config system: eslintrc or eslintrc system
+  - New config system: flat config or flat config system
   - "(...) we had recommended that shareable configs include any plugins they depended on as peer dependencies rather than regular dependencies. This was a quirk of the way that `extends` was implemented: using `require()`."
 - https://www.npmjs.com/package/npm-check-updates:
   - `npx npm-check-updates --packageManager npm` (check) + `npx npm-check-updates -u --packageManager npm` (update)
@@ -48,3 +47,29 @@ npm install
   - `npm set init-author-name "João Palmeiro"`
   - `npm set init-license "MIT"`
   - `npm set init-version "0.0.0"`
+- [ESLint's new config system, Part 2: Introduction to flat config](https://eslint.org/blog/2022/08/new-config-system-part-2/):
+  - New configuration file: `eslint.config.js`. It exports an array of config objects.
+  - "We used the `overrides` configs as the basis for flat config."
+  - https://www.npmjs.com/package/minimatch
+  - "A config object only applies to a file if the filename matches a pattern in `files` (or if there is no `files` key, in which case it will match all files)."
+  - "Inside of the array, ESLint finds all config objects that match the file being linted and merges them together (...) the merge happens from the top of the array down to the bottom (...) The last matching config always wins when there is a conflict."
+  - https://www.npmjs.com/package/globals
+  - https://www.npmjs.com/package/@babel/eslint-parser
+
+### Ignore files globally in the flat config system
+
+"With this config, all JavaScript files ending with `.test.js` will be ignored. You can think of this as the equivalent of `ignorePatterns` in eslintrc (...)"
+
+```js
+export default [
+  {
+    ignores: ["**/*.test.js"],
+  },
+  {
+    files: ["**/*.js"],
+    rules: {
+      semi: "error",
+    },
+  },
+];
+```
