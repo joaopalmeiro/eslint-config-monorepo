@@ -55,6 +55,7 @@ npm install
   - "Inside of the array, ESLint finds all config objects that match the file being linted and merges them together (...) the merge happens from the top of the array down to the bottom (...) The last matching config always wins when there is a conflict."
   - https://www.npmjs.com/package/globals
   - https://www.npmjs.com/package/@babel/eslint-parser
+- [ESLint's new config system, Part 3: Developer preview](https://eslint.org/blog/2022/08/new-config-system-part-3/)
 
 ### Ignore files globally in the flat config system
 
