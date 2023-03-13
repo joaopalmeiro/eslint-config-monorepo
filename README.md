@@ -27,6 +27,11 @@ npm install
 - https://github.com/eslint/eslint/issues/15539#issuecomment-1180362963
 - https://github.com/jsx-eslint/eslint-plugin-react#configuration-new-eslintconfigjs + https://github.com/jsx-eslint/eslint-plugin-react/blob/master/index.js
 - https://github.com/will-stone/dx
+- https://github.com/tkamenoko/eslint-flat-config-typescript
+- https://github.com/lund0n/pnpm-changesets-tutorial#working-with-monorepos
+- https://pnpm.io/using-changesets + https://github.com/changesets/changesets/blob/main/docs/intro-to-using-changesets.md + https://github.com/changesets/action + https://github.com/joaopalmeiro/netscapebff/blob/main/.github/workflows/publish.yml
+- https://github.com/pnpm/action-setup + https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-output-parameter
+- https://github.com/antfu/eslint-config/blob/main/package.json + https://github.com/antfu/eslint-config/blob/main/.eslintrc.json
 
 ## Notes
 
@@ -56,6 +61,11 @@ npm install
   - https://www.npmjs.com/package/globals
   - https://www.npmjs.com/package/@babel/eslint-parser
 - [ESLint's new config system, Part 3: Developer preview](https://eslint.org/blog/2022/08/new-config-system-part-3/)
+- https://github.com/import-js/eslint-plugin-import/issues/2556 + https://github.com/lydell/eslint-plugin-simple-import-sort
+- https://pnpm.io/installation#using-corepack + https://github.com/pnpm/pnpm/releases:
+  - `corepack enable`
+  - `corepack prepare pnpm@latest --activate`
+- https://github.com/antfu/bumpp
 
 ### Ignore files globally in the flat config system
 
