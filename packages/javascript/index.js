@@ -1,6 +1,9 @@
 import { GLOB_JS } from "./constants.js";
 
-const js = [
+// https://github.com/sxzz/eslint-config/blob/main/src/js.js
+// https://github.com/antfu/eslint-config/tree/main/packages/basic
+
+const javascript = [
   {
     files: [GLOB_JS],
     rules: {
@@ -13,4 +16,4 @@ const js = [
   },
 ];
 
-export default js;
+export default javascript;

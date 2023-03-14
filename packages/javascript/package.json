@@ -1,0 +1,25 @@
+{
+    "name": "@joaopalmeiro/eslint-config-javascript",
+    "version": "0.0.0",
+    "description": "",
+    "author": "João Palmeiro",
+    "license": "MIT",
+    "keywords": [
+        "eslint",
+        "eslint-config"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/joaopalmeiro/eslint-config-vue.git"
+    },
+    "bugs": {
+        "url": "https://github.com/joaopalmeiro/eslint-config-vue/issues"
+    },
+    "homepage": "https://github.com/joaopalmeiro/eslint-config-vue#readme",
+    "peerDependencies": {
+        "eslint": "8.36.0"
+    },
+    "devDependencies": {
+        "eslint": "8.36.0"
+    }
+}

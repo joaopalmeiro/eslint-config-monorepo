@@ -1,28 +1,17 @@
 {
-  "name": "@joaopalmeiro/eslint-config-vue",
-  "publishConfig": {
-    "access": "public"
-  },
+  "name": "@joaopalmeiro/eslint-config-monorepo",
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "description": "",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/joaopalmeiro/eslint-config-vue.git"
-  },
-  "keywords": [
-    "eslint"
-  ],
   "author": "João Palmeiro",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/joaopalmeiro/eslint-config-vue/issues"
-  },
-  "homepage": "https://github.com/joaopalmeiro/eslint-config-vue#readme",
-  "dependencies": {
-    "eslint": "8.36.0"
-  },
   "scripts": {
-    "check:js": "eslint --print-config test.js"
+    "check:javascript": "cross-env ESLINT_USE_FLAT_CONFIG=true eslint --config eslint.config.js --print-config tests/javascript.js"
+  },
+  "packageManager": "pnpm@7.29.1",
+  "devDependencies": {
+    "cross-env": "7.0.3",
+    "eslint": "8.36.0"
   }
 }

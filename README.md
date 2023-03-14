@@ -3,17 +3,11 @@
 ## Development
 
 ```bash
-nvm install && nvm use && node --version
-```
-
-or
-
-```bash
-nvm use && node --version
+pnpm install
 ```
 
 ```bash
-npm install
+pnpm check:javascript
 ```
 
 ## References
@@ -32,10 +26,12 @@ npm install
 - https://pnpm.io/using-changesets + https://github.com/changesets/changesets/blob/main/docs/intro-to-using-changesets.md + https://github.com/changesets/action + https://github.com/joaopalmeiro/netscapebff/blob/main/.github/workflows/publish.yml
 - https://github.com/pnpm/action-setup + https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-output-parameter
 - https://github.com/antfu/eslint-config/blob/main/package.json + https://github.com/antfu/eslint-config/blob/main/.eslintrc.json
+- https://eslint.org/docs/latest/use/configure/configuration-files-new#configuration-file-resolution
 
 ## Notes
 
 - `npm install eslint && npm install -D eslint-define-config`
+- `pnpm add eslint`
 - https://github.com/AlloyTeam/eslint-config-alloy
 - https://github.com/Shinigami92/eslint-define-config
 - [ESLint's new config system, Part 1: Background](https://eslint.org/blog/2022/08/new-config-system-part-1/):
@@ -62,10 +58,13 @@ npm install
   - https://www.npmjs.com/package/@babel/eslint-parser
 - [ESLint's new config system, Part 3: Developer preview](https://eslint.org/blog/2022/08/new-config-system-part-3/)
 - https://github.com/import-js/eslint-plugin-import/issues/2556 + https://github.com/lydell/eslint-plugin-simple-import-sort
-- https://pnpm.io/installation#using-corepack + https://github.com/pnpm/pnpm/releases:
+- https://pnpm.io/installation#using-corepack + https://github.com/pnpm/pnpm/releases + https://nodejs.org/api/packages.html#packagemanager:
   - `corepack enable`
   - `corepack prepare pnpm@latest --activate`
 - https://github.com/antfu/bumpp
+- `rm -rf node_modules/ pnpm-lock.yaml`
+- https://stackoverflow.com/a/37356976 + https://www.npmjs.com/package/cross-env:
+  - `pnpm add -Dw cross-env`
 
 ### Ignore files globally in the flat config system
 
