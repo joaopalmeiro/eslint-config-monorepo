@@ -1,4 +1,4 @@
-# eslint-config-vue
+# eslint-config-monorepo
 
 ## Development
 

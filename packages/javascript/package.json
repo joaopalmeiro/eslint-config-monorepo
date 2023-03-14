@@ -10,12 +10,12 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/joaopalmeiro/eslint-config-vue.git"
+        "url": "git+https://github.com/joaopalmeiro/eslint-config-monorepo.git"
     },
     "bugs": {
-        "url": "https://github.com/joaopalmeiro/eslint-config-vue/issues"
+        "url": "https://github.com/joaopalmeiro/eslint-config-monorepo/issues"
     },
-    "homepage": "https://github.com/joaopalmeiro/eslint-config-vue#readme",
+    "homepage": "https://github.com/joaopalmeiro/eslint-config-monorepo#readme",
     "peerDependencies": {
         "eslint": "8.36.0"
     },
